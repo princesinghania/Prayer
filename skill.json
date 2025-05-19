@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Prayer skill for shop",
+          "examplePhrases": [
+            "Alexa, open prayer",
+            "Alexa, ask prayer to start"
+          ],
+          "name": "Prayer",
+          "description": "Plays your daily prayer."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just say: Alexa, open Prayer",
+      "category": "RELIGION_SPIRITUALITY",
+      "distributionCountries": ["IN"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://princesinghania.github.io/Prayer/lambda.json"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
