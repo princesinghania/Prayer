@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Starting your daily prayer."
+    },
+    "directives": [
+      {
+        "type": "AudioPlayer.Play",
+        "playBehavior": "REPLACE_ALL",
+        "audioItem": {
+          "stream": {
+            "token": "1",
+            "url": "https://princesinghania.github.io/Prayer/youtube_siYmixw5eLc_audio.mp3",
+            "offsetInMilliseconds": 0
+          }
+        }
+      }
+    ],
+    "shouldEndSession": true
+  }
+}
